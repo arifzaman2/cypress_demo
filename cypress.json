@@ -1,0 +1,18 @@
+{
+    "trashAssetsBeforeRuns": false,
+    "video": false,
+    "defaultCommandTimeout": 15000,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports",
+            "charts": true,
+            "quite": true,
+            "overwrite": false,
+            "html": false,
+            "json": true
+        }
+    },
+    "retries": 2
+}
