@@ -23,3 +23,4 @@ cypress/reports
 debug.log
 cypress/merged-reports
 error.json
+.DS_Store
