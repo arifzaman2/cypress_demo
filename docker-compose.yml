@@ -2,10 +2,10 @@ version: "3.7"
 services:
      cypress-integration: 
           build: .
-          image: cypress_custom_image:v8.0.0
+          image: cypress_custom_image:v8.2.0
           user: root
           volumes:
-               - $PWD:/cypress_template
+               - $PWD:/cypress_demo
           command: 
                - /bin/bash
                - -c
