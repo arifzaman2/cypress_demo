@@ -2,7 +2,7 @@ version: "3.7"
 services:
      cypress-integration: 
           build: .
-          image: cypress_custom_image:v8.2.0
+          image: cypress_custom_image:v10.3.0
           user: root
           volumes:
                - $PWD:/cypress_demo
