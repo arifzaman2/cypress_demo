@@ -3,7 +3,7 @@ const { defineConfig } = require('cypress')
 module.exports = defineConfig({
   trashAssetsBeforeRuns: false,
   video: false,
-  defaultCommandTimeout: 15000,
+  defaultCommandTimeout: 4000,
   reporter: 'cypress-multi-reporters',
   reporterOptions: {
     reporterEnabled: 'mochawesome',

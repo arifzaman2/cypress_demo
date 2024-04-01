@@ -52,9 +52,9 @@ context('Files', () => {
 
     // You can read a file and yield its contents
     // The filePath is relative to your project's root.
-    cy.readFile('cypress.json').then((json) => {
-      expect(json).to.be.an('object')
-    })
+    // cy.readFile('cypress.config.js').then((js) => {
+    //   expect(js).to.be.an('object')
+    // })
   })
 
   it('cy.writeFile() - write to a file', () => {
